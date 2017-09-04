@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'destinations/show'
+
+  get 'destinations/edit'
+
   get 'lists/index'
 
   get 'lists/show'

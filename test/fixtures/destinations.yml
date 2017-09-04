@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  list_id: MyString
+  integer: MyString
+  location: MyString
+  string: MyString
+
+two:
+  list_id: MyString
+  integer: MyString
+  location: MyString
+  string: MyString
