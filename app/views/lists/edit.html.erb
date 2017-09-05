@@ -1,2 +1,15 @@
-<h1>Lists#edit</h1>
+<h1>Edit List</h1>
+<%= form_with(model: @list) do |form| %>
+  <p>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </p>
+  <p>
+    <%= form.label :description %><br>
+    <%= form.text_field :description %>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
 <p>Find me in app/views/lists/edit.html.erb</p>
